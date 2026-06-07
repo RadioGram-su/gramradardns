@@ -1,0 +1,19 @@
+Gram Radar DNS Bot (@gramradardns_bot)
+======================================
+
+1. Copy .env.example to .env
+2. Fill in:
+   TELEGRAM_BOT_TOKEN=   (from @BotFather)
+   BOT_API_SECRET=       (same secret on gramradar.org server)
+   GRAMRADAR_API=https://gramradar.org
+
+3. On gramradar.org server .env add:
+   BOT_API_SECRET=your_secret
+   EXTERNAL_TELEGRAM_BOT=1
+
+4. npm install && npm start
+
+Bot host: Railway, Render, VPS, PythonAnywhere (Node), etc.
+Start command: node index.js
+
+Channel: https://t.me/gramradardns
